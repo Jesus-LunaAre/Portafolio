@@ -117,10 +117,6 @@ El formulario guarda automáticamente todos los mensajes en **localStorage** y p
 
 Este proyecto es de código abierto y está disponible bajo la [MIT License](LICENSE).
 
-## 👤 Autor
-
-Tu Nombre - [tu-email@ejemplo.com](mailto:tu-email@ejemplo.com)
-
 ---
 
 ⭐ Si te gustó este proyecto, dale una estrella en GitHub!
