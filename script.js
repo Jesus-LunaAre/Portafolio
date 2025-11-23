@@ -107,7 +107,7 @@ const projects = [
     {
         title: "Solución de Automatización Masiva para Gestión de Datos Corporativos",
         description: "Implementación de una solución de automatización masiva para gestionar grandes volúmenes de información empresarial mediante integración con sistemas corporativos. El sistema procesa informacion de manera eficiente, automatiza procesos complejos y reduce significativamente el tiempo de procesamiento, mejorando la productividad y precisión en la gestión de datos corporativos.",
-        tech: ["Python", "SAP API", "Automatización", "Scripts", "Data Science"],
+        tech: ["Python", "SAP API", "Automatización", "Scripts"],
         demo: "#",
         code: "#",
         icon: "⚙️",
@@ -116,7 +116,7 @@ const projects = [
     {
         title: "Plataforma de Optimización Logística con Inteligencia Artificial",
         description: "Desarrollo de una aplicación completa utilizando Inteligencia Artificial y tecnologías de mapeo para optimizar rutas de distribución y gestión de carga. La solución analiza múltiples variables logísticas, sugiere rutas optimizadas y calcula la mejor distribución de recursos, resultando en reducción de costos operativos, mejor utilización de activos y tiempos de entrega más eficientes.",
-        tech: ["Python", "Streamlit", "IA", "Mapeo de Rutas", "Machine Learning"],
+        tech: ["Python", "IA", "Mapeo de Rutas", "Machine Learning"],
         demo: "#",
         code: "#",
         icon: "🚚",
