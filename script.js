@@ -80,7 +80,7 @@ const projects = [
     {
         title: "Optimización de Rendimiento para Procesamiento de Datos Masivos",
         description: "Implementación de una solución de base de datos local integrada en sistemas de planificación empresarial. La solución mejora significativamente el rendimiento de consultas y procesamiento de datos, permitiendo análisis más rápidos y eficientes de grandes volúmenes de información empresarial.",
-        tech: ["Python", "DuckDB", "ICM Varicent", "SQL"],
+        tech: ["Python", "NoSQL", "ICM Varicent", "SQL"],
         demo: "#",
         code: "#",
         icon: "💾",
