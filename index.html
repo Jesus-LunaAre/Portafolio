@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ingeniero en Sistemas Computacionales - Especialista en desarrollo multiplataforma, automatización e integración de sistemas">
+    <title>Portafolio - Ing. Jesús Luna</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="logo">Portafolio</a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
+                <li><a href="#experiencia" class="nav-link">Experiencia</a></li>
+                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="hero-main">
+                <div class="hero-profile">
+                    <a href="https://www.instagram.com/us3r.lu4r?igsh=NWt5YTFrNnlkczNv" target="_blank" rel="noopener noreferrer" class="profile-link" aria-label="Visitar Instagram">
+                        <div class="profile-image-wrapper">
+                            <img src="images/profile.jpg" alt="Jesús Luna" class="profile-image" 
+                                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="profile-fallback" style="display: none;">
+                                <span>JL</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="hero-info">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hola, soy</span>
+                        <span class="name">Jesús Luna</span>
+                    </h1>
+                    <p class="hero-subtitle">Ingeniero en Sistemas Computacionales</p>
+                    <p class="hero-description">Especializado en Desarrollo Multiplataforma & Almacenamiento de Datos.<br>Transformo desafíos técnicos en soluciones eficientes que optimizan operaciones y reducen costos.</p>
+                    <div class="hero-buttons">
+                        <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+                        <a href="#contacto" class="btn btn-secondary">Contactar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator" aria-label="Desliza para ver más">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span class="scroll-text">Desliza para explorar</span>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Soy alguien que disfruta entender, escuchar y conectar con las personas. Me gusta aprender cosas nuevas, cuestionar cómo funcionan las cosas y encontrar sentido en los detalles. Valoro la honestidad, la claridad y las conversaciones que aportan. Me motiva mejorar un poco cada día y rodearme de personas que impulsan lo mejor de mí.
+                    </p>
+                    <div class="education">
+                        <h3>Formación Académica</h3>
+                        <p class="education-item">
+                            <strong>Ingeniería en Sistemas Computacionales</strong><br>
+                            Especialización en Desarrollo Multiplataforma y Almacenamiento de Datos
+                        </p>
+                    </div>
+
+                    <div class="certifications">
+                        <h3>Certificaciones</h3>
+                        <ul class="cert-list">
+                            <li>Microsoft AZ-204 Azure Developer Associate</li>
+                            <li>Cisco Introducción a la Seguridad Cibernética</li>
+                            <li>Google Activate Introducción al Desarrollo Web</li>
+                            <li>Fundación Carlos Slim Introducción al Desarrollo Móvil en Línea</li>
+                        </ul>
+                    </div>
+
+                    <div class="courses">
+                        <h3>Cursos Internos</h3>
+                        <ul class="cert-list">
+                            <li>ICM Varicent Funcional</li>
+                            <li>Angular 19</li>
+                            <li>Power Automate Desktop</li>
+                            <li>Power Automate Cloud</li>
+                        </ul>
+                    </div>
+
+                    <div class="skills">
+                        <h3>Tecnologías y Herramientas</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Flask</span>
+                            <span class="skill-tag">Streamlit</span>
+                            <span class="skill-tag">FastAPI</span>
+                            <span class="skill-tag">.NET</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Laravel</span>
+                            <span class="skill-tag">Angular</span>
+                            <span class="skill-tag">Power Automate</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">NoSQL</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">ICM Varicent</span>
+                            <span class="skill-tag">Azure</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Experiencia -->
+    <section id="experiencia" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experiencia</h2>
+            <p class="section-subtitle">Empresas con las que he colaborado</p>
+            <div class="experience-content">
+                <div class="experience-region">
+                    <h3>Argentina</h3>
+                    <div class="companies-grid" id="companiesArgentina">
+                        <!-- Las empresas se cargarán dinámicamente desde JavaScript -->
+                    </div>
+                </div>
+                <div class="experience-region">
+                    <h3>México</h3>
+                    <div class="companies-grid" id="companiesMexico">
+                        <!-- Las empresas se cargarán dinámicamente desde JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <h2 class="section-title">Proyectos</h2>
+            <p class="section-subtitle">Soluciones tecnológicas desarrolladas para empresas líderes en Argentina y México</p>
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Los proyectos se cargarán dinámicamente desde JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <p class="section-subtitle">¿Tienes un proyecto en mente? Hablemos</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <a href="mailto:tu-email@ejemplo.com">inglunajesus@hotmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/ingjesuslunaarevalo" target="_blank" rel="noopener noreferrer">linkedin.com/in/ingjesuslunaarevalo</a>
+                    </div>
+                    <div class="contact-item">
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/Jesus-LunaAre" target="_blank" rel="noopener noreferrer">github.com/Jesus-LunaAre</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Tu email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Tu mensaje" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Jesús Luna. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
