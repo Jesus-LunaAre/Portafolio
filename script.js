@@ -46,28 +46,22 @@ const companies = {
             fallback: "🍺"
         },
         {
-            name: "Femsa",
-            shortName: "Femsa",
-            image: "images/companies/femsa.jpg",
-            fallback: "🏢"
-        },
-        {
             name: "Xpertal",
             shortName: "Xpertal",
             image: "images/companies/xpertal.jpg",
             fallback: "💼"
         },
         {
-            name: "Ragasa",
-            shortName: "Ragasa",
-            image: "images/companies/ragasa.jpg",
-            fallback: "⛽"
-        },
-        {
             name: "CCN",
             shortName: "CCN Transportacion",
             image: "images/companies/ccn.jpg",
             fallback: "🚚"
+        },
+        {
+            name: "BadRooms",
+            shortName: "BadRooms",
+            image: "images/companies/femsa.jpg",
+            fallback: "🏢"
         }
     ]
 };
@@ -75,8 +69,8 @@ const companies = {
 // Datos de proyectos
 const projects = [
     {
-        title: "Integración de Aplicaciones Externas a ICM Varicent",
-        description: "Desarrollé scripts en Python para integrar aplicativos externos con ICM Varicent en YPF, permitiendo la sincronización automatizada de datos y la consolidación de información desde múltiples fuentes. La solución optimiza el proceso de cálculo de incentivos y comisiones, reduciendo errores manuales y mejorando la precisión en los reportes financieros.",
+        title: "Sistema de Integración y Sincronización de Datos Empresariales",
+        description: "Desarrollo de una solución de integración que conecta aplicaciones externas con sistemas de planificación empresarial, permitiendo la sincronización automatizada de datos y la consolidación de información desde múltiples fuentes. La solución optimiza procesos de cálculo y reportes, reduciendo errores manuales y mejorando la precisión en análisis financieros.",
         tech: ["Python", "ICM Varicent", "APIs", "Scripts"],
         demo: "#",
         code: "#",
@@ -84,17 +78,17 @@ const projects = [
         company: "YPF"
     },
     {
-        title: "Base de Datos Local en ICM Varicent con DuckDB",
-        description: "Implementé una solución innovadora utilizando Python scripts y DuckDB para crear una base de datos local integrada dentro de ICM Varicent. Esta implementación mejoró significativamente el rendimiento de consultas y procesamiento de datos para empresas como FEMSA, OXXO y Heineken, permitiendo análisis más rápidos y eficientes de grandes volúmenes de información.",
+        title: "Optimización de Rendimiento para Procesamiento de Datos Masivos",
+        description: "Implementación de una solución de base de datos local integrada en sistemas de planificación empresarial. La solución mejora significativamente el rendimiento de consultas y procesamiento de datos, permitiendo análisis más rápidos y eficientes de grandes volúmenes de información empresarial.",
         tech: ["Python", "DuckDB", "ICM Varicent", "SQL"],
         demo: "#",
         code: "#",
         icon: "💾",
-        company: "FEMSA, OXXO, HNK"
+        company: "OXXO, HNK"
     },
     {
-        title: "Automatización de Cálculo de Fondos de Inversión con IA",
-        description: "Creé un sistema automatizado para el cálculo de fondos de inversión utilizando Inteligencia Artificial y Power Automate en Transportadora Gas del Norte. La solución procesa automáticamente datos financieros complejos, realiza cálculos precisos y genera reportes ejecutivos, reduciendo el tiempo de procesamiento y minimizando errores humanos en operaciones críticas.",
+        title: "Sistema Automatizado de Procesamiento Financiero con IA",
+        description: "Desarrollo de un sistema automatizado para procesamiento de cálculos financieros complejos utilizando Inteligencia Artificial y herramientas de automatización. La solución procesa automáticamente datos financieros, realiza cálculos precisos y genera reportes ejecutivos, reduciendo significativamente el tiempo de procesamiento y minimizando errores en operaciones críticas.",
         tech: ["Power Automate", "IA", "OCR", "Automatización"],
         demo: "#",
         code: "#",
@@ -102,8 +96,8 @@ const projects = [
         company: "TGN"
     },
     {
-        title: "Automatización de Cartas Porte e Instrucciones para Operadores",
-        description: "Desarrollé un sistema completo de automatización que genera y envía cartas porte e instrucciones para operadores mediante WhatsApp, integrando FileMaker y Microsip. La solución automatiza el proceso de comunicación logística, mejorando la eficiencia operativa y garantizando que los operadores reciban información precisa y oportuna para sus operaciones de transporte.",
+        title: "Plataforma de Automatización para Comunicación Operativa",
+        description: "Desarrollo de un sistema completo de automatización que genera y distribuye documentación operativa mediante integración con plataformas de mensajería. La solución integra sistemas de gestión empresarial y automatiza procesos de comunicación operativa, mejorando la eficiencia y garantizando que los operadores reciban información precisa y oportuna.",
         tech: ["API Graph Meta", "FileMaker", "Microsip", "Automatización"],
         demo: "#",
         code: "#",
@@ -111,8 +105,8 @@ const projects = [
         company: "CCN"
     },
     {
-        title: "Automatización Masiva para Datos sencibles de Empleados en SAP",
-        description: "Implementé una solución de automatización masiva utilizando Python scripts y la API de SAP para gestionar datos sensibles de empleados en XPERTAL. El sistema procesa grandes volúmenes de transacciones de manera eficiente, automatiza procesos complejos y reduce significativamente el tiempo de procesamiento, mejorando la productividad y precisión en la gestión de recursos humanos.",
+        title: "Solución de Automatización Masiva para Gestión de Datos Corporativos",
+        description: "Implementación de una solución de automatización masiva para gestionar grandes volúmenes de información empresarial mediante integración con sistemas corporativos. El sistema procesa informacion de manera eficiente, automatiza procesos complejos y reduce significativamente el tiempo de procesamiento, mejorando la productividad y precisión en la gestión de datos corporativos.",
         tech: ["Python", "SAP API", "Automatización", "Scripts", "Data Science"],
         demo: "#",
         code: "#",
@@ -120,8 +114,8 @@ const projects = [
         company: "XPERTAL"
     },
     {
-        title: "Aplicativo de Optimización de Rutas y Llenado de Camiones",
-        description: "Desarrollé una aplicación completa utilizando Python Streamlit, Inteligencia Artificial y mapeo de rutas para optimizar las rutas de distribución y el llenado de camiones en DAPSA. La solución analiza múltiples variables logísticas, sugiere rutas optimizadas y calcula la mejor distribución de carga, resultando en reducción de costos de combustible, mejor utilización de recursos y tiempos de entrega más eficientes.",
+        title: "Plataforma de Optimización Logística con Inteligencia Artificial",
+        description: "Desarrollo de una aplicación completa utilizando Inteligencia Artificial y tecnologías de mapeo para optimizar rutas de distribución y gestión de carga. La solución analiza múltiples variables logísticas, sugiere rutas optimizadas y calcula la mejor distribución de recursos, resultando en reducción de costos operativos, mejor utilización de activos y tiempos de entrega más eficientes.",
         tech: ["Python", "Streamlit", "IA", "Mapeo de Rutas", "Machine Learning"],
         demo: "#",
         code: "#",
