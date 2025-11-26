@@ -75,7 +75,7 @@ const projects = [
         demo: "#",
         code: "#",
         icon: "🔗",
-        company: "YPF"
+        company: ""
     },
     {
         title: "Optimización de Rendimiento para Procesamiento de Datos Masivos",
@@ -84,7 +84,7 @@ const projects = [
         demo: "#",
         code: "#",
         icon: "💾",
-        company: "OXXO, HNK"
+        company: ""
     },
     {
         title: "Sistema Automatizado de Procesamiento Financiero con IA",
@@ -93,7 +93,7 @@ const projects = [
         demo: "#",
         code: "#",
         icon: "🤖",
-        company: "TGN"
+        company: ""
     },
     {
         title: "Plataforma de Automatización para Comunicación Operativa",
@@ -102,7 +102,7 @@ const projects = [
         demo: "#",
         code: "#",
         icon: "📋",
-        company: "CCN"
+        company: ""
     },
     {
         title: "Solución de Automatización Masiva para Gestión de Datos Corporativos",
@@ -111,7 +111,7 @@ const projects = [
         demo: "#",
         code: "#",
         icon: "⚙️",
-        company: "XPERTAL"
+        company: ""
     },
     {
         title: "Plataforma de Optimización Logística con Inteligencia Artificial",
@@ -120,7 +120,7 @@ const projects = [
         demo: "#",
         code: "#",
         icon: "🚚",
-        company: "DAPSA"
+        company: ""
     }
 ];
 
